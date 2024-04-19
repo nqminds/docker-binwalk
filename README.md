@@ -14,16 +14,16 @@ To pull the pre-built image from Docker Hub, use the following command:
 docker pull ionutnqm/binwalk_v4:latest
 ```
 
-This command fetches the latest version of the ionutnqm/binwalk_v4 Docker image from Docker Hub, ensuring you have the newest version of the image with all dependencies pre-installed.
+This command fetches the latest version of the `ionutnqm/binwalk_v4` Docker image from Docker Hub, ensuring you have the newest version of the image with all dependencies pre-installed.
 
 ### Building the Image Locally
 If you prefer to build the image yourself, perhaps to modify it or ensure it's up to date with your Dockerfile, clone the repository containing the Dockerfile and run the following command in the directory containing the Dockerfile:
 
 ```sh
-docker build -t user/binwalk:latest .
+docker build -t <user>/binwalk:latest .
 ```
 
-This builds the Docker image using the Dockerfile in the current directory and tags it with the name `user/binwalk:latest .`
+This builds the Docker image using the Dockerfile in the current directory and tags it with the name `<user>/binwalk:latest .`
 
 ### Running the Image
 To use the Docker image for firmware analysis, you need to mount the directory containing the firmware image you wish to analyse to the appropriate directory inside the container. Here's how to run the image with Binwalk:
