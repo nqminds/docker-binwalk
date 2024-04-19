@@ -1,0 +1,10 @@
+
+{
+  "TITLE": "Binwalk Docker",
+  "TAGLINE": "Description of project",
+  "DOCUSAURUS_URL": "https://your-docusaurus-site.example.com",
+  "PROJECT_NAME": "Binwalk Docker",
+  "HEDGEDOC_SERVER": "https://hedgedoc.nqminds.com",
+  "GITHUB_OWNER": "nqminds",
+  "GITHUB_REPO": "binwalk-docker"
+}
