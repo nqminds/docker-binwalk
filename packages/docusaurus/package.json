@@ -17,7 +17,8 @@
     "prepare": "node ./scripts/import-schemas.js"
   },
   "dependencies": {
-    "@docusaurus/core": "^3.1.1",
+    "@docusaurus/core": "^3.2.1",
+    "@docusaurus/plugin-content-blog": "^3.2.1",
     "@docusaurus/preset-classic": "3.1.1",
     "@fortawesome/fontawesome-svg-core": "^6.5.1",
     "@fortawesome/free-solid-svg-icons": "^6.5.1",
